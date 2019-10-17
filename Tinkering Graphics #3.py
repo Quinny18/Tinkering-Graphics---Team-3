@@ -1,5 +1,6 @@
 import random
 import pygame
+
 pygame.init()
 main_window = pygame.display.set_mode((800,600))
 running = True
