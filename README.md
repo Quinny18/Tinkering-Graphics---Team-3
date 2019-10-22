@@ -1,7 +1,7 @@
 # Tinkering-Graphics---Team-3
 
 #1 was done by Joe, Callum and Tyler  
-#3 was done by Luke and Issac 
+#3 was done by Luke and Isaac 
 
 Instructions:
 Python Version 3.7 is required - as well as visual studio 2017
