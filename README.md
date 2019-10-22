@@ -11,3 +11,5 @@ Tasks 1 and 3 are complete, while task 4 is in progress and doesn't currently ru
 To inspect the code of each program, run in pycharm 2019.1.2 and open the Tinkering-Graphucs---Team-3 folder.
 pygame is required for each program to run.
 
+To run texture generator, pillow, noise, numpy, pip, and scipy must be installed
+
