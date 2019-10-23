@@ -13,3 +13,10 @@ pygame is required for each program to run.
 
 To run texture generator, pillow, noise, numpy, pip, and scipy must be installed
 
+To find github - go to:
+https://github.com/Quinny18/Tinkering-Graphics---Team-3
+
+We used an MIT license because 
+
+
+
