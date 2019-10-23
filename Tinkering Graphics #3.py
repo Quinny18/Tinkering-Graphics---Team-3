@@ -18,7 +18,7 @@ def load_assets():  # this function loads all the assets of the monster parts
 
 
 def random_number_generator():  # this function generates random numbers
-    head = random.randint(0, 3)
+    head = random.randint (0, 3)
     wing = random.randint(4, 6)
     arm = random.randint(7, 10)
     torso = random.randint(11, 14)
@@ -40,7 +40,7 @@ def print_monster(monster, number):  # this function loads all the assets for th
 
 
 def keep_monster():  # this function allows the user to keep their monster or get a new one
-    loop = True
+    loop, running = True, True
     while loop == True:
         keep = input("Do you want to keep the current monster?")
         if keep == "yes":
@@ -54,6 +54,7 @@ def keep_monster():  # this function allows the user to keep their monster or ge
             loop = False
         else:
             print('Please enter "yes" or "no"')
+    return running
 
 
 pygame.init()
@@ -71,6 +72,6 @@ while running:
     random_numbers = random_number_generator()
     print_monster(monster_parts, random_numbers)
     pygame.display.update()
-    keep_monster()
+    running = keep_monster()
 
 pygame.quit()
