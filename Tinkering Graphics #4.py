@@ -50,9 +50,9 @@ def unshade(colour1, colour2, tolerance, surface=pygame.Surface((1, 1))):
     pixel = pygame.Color(0, 0, 0)
     for x in range(surface.get_width()):
         # loops through all x values
-        for y in range(surface.get_width()):
+        for y in range(surface.get_height()):
             # loops through all y values
-            pixel = surface.get_at((x, y))  # gets the location of the pixel
+            pixel = surface.get_at((x, y))  # set pixel to the current x and y location
             if colour_distance(colour1, colour2) < tolerance:
                 # changes colour if it is similar to the selected colour
                 surface.set_at((x, y), pygame.Color(211, 211, 211))
@@ -64,7 +64,7 @@ def colour_to_colour(colours, remove_colour, replace_colour, surface=pygame.Surf
     pixel = pygame.Color(0, 0, 0)
     for x in range(surface.get_width()):
         # loops through all x values
-        for y in range(surface.get_width()):
+        for y in range(surface.get_height()):
             # loops through all y values
             pixel = surface.get_at((x, y))
             if pixel == colours[remove_colour]:
