@@ -8,12 +8,14 @@ Luke created the base code, while Isaac made the assets and got the program to r
 #4 was done by Luke and Isaac
 Luke created the base code then optimised and polished the code to a much more presentable fashion.
 
+#5 was done by Joe.
+
 Instructions:
 Python Version 3.7 is required - as well as visual studio 2017
 
 Contract 4 will only run after a image has been saved from contract 3
 
-Tasks 1,3 and 4 are complete, while task 2 and 5 are in progress 
+Tasks 1,3,4 and 5 are complete, while task 2 is in progress 
 
 To inspect the code of each program, run in pycharm 2019.1.2 and open the Tinkering-Graphucs---Team-3 folder.
 pygame is required for each program to run.
