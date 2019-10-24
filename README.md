@@ -6,9 +6,10 @@
 Luke created the base code, while Isaac made the assets and got the program to run. Luke then optimised and polished the code to a much more presentable fashion.
 
 #4 was done by Luke and Isaac
-Luke created the base code then optimised and polished the code to a much more presentable fashion.
+Luke created the base code then optimised and polished the code to a much more presentable fashion. Issac
 
-#5 was done by Joe.
+#5 was done by Joe and Luke.
+Joe made the code and optimised it. Luke added a simple user interface.
 
 Instructions:
 Python Version 3.7 is required - as well as visual studio 2017
