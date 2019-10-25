@@ -18,7 +18,7 @@ Contract 4 will only run after a image has been saved from contract 3
 
 Tasks 1,3,4 and 5 are complete, while task 2 is in progress
 
-To inspect the code of each program, run in pycharm 2019.1.2 and open the Tinkering-Graphucs---Team-3 folder.
+To inspect the code of each program, run in pycharm 2019.1.2 and open the Tinkering-Graphics---Team-3 folder.
 pygame is required for each program to run.
 
 To run contract 1 (texture generator), pillow, noise, numpy, pip, and scipy must be installed
