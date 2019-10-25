@@ -1,6 +1,8 @@
 # Tinkering-Graphics---Team-3
 
-#1 was done by Joe, Callum and Tyler  
+#1 was done by Joe and Callum 
+
+#2 was done by Tyler
 
 #3 was done by Luke and Isaac
 Luke created the base code, while Isaac made the assets and got the program to run. Luke then optimised and polished the code to a much more presentable fashion.
