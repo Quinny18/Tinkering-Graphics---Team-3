@@ -1,3 +1,6 @@
+# Author: Callum Quinn
+
+
 import noise
 import numpy as np
 import random
