@@ -21,9 +21,9 @@ lacunarity = 1.0  # This determines how much detail is added and removed from ea
 world = np.zeros(shape)  # returns a new array of the shape or size initialised in the shape variable
 pattern_number = random.randrange(1, 101)
 
-for i in range(shape[0]): # from the first element of shape[0] to the last
-    for j in range(shape[1]): # from the first element of shape[1] to the last
-        world[i][j] = noise.pnoise2(i / scale, # pnoise is a periodic noise function
+for i in range(shape[0]):  # from the first element of shape[0] to the last
+    for j in range(shape[1]):  # from the first element of shape[1] to the last
+        world[i][j] = noise.pnoise2(i / scale,  # pnoise is a periodic noise function
                                     j / scale,
                                     octaves=octaves,
                                     persistence=persistence,
@@ -35,28 +35,28 @@ for i in range(shape[0]): # from the first element of shape[0] to the last
 # Tutorial used to create Perlin Noise Map:
 # https://medium.com/@yvanscher/playing-with-perlin-noise-generating-realistic-archipelagos-b59f004d8401
 
-print("Pattern Number : ", pattern_number) # This just displays the pattern used each run, they range from, and include 1 - 100
+print("Pattern Number : ", pattern_number)  # This just displays the pattern used each run, they range from, and include 1 - 100
 
 
-def snowy_grass(world): # This function is run when the user inputs that they want to generate a snowy grass tile
+def snowy_grass(world):  # This function is run when the user inputs that they want to generate a snowy grass tile
     green = [32, 105, 32]  # The colours that will be used on the tiles
     white = [244, 245, 244]
 
-    color_world = np.zeros(world.shape + (3,)) # world.shape is used to return the shape of the array
+    color_world = np.zeros(world.shape + (3,))  # world.shape is used to return the shape of the array
     for i in range(shape[0]):
         for j in range(shape[1]):
-            if world[i][j] < -0.25: # Sets all of the areas of the noise map that are less than -0.25 to green
+            if world[i][j] < -0.25:  # Sets all of the areas of the noise map that are less than -0.25 to green
                 color_world[i][j] = green
 
             elif world[i][j] < 1.0:
-                color_world[i][j] = white # Sets all of the areas of the noise map that are less than 1 to white
+                color_world[i][j] = white  # Sets all of the areas of the noise map that are less than 1 to white
 
     return color_world
 
 
 def wet_grass(world):
-    blue = [65, 105, 225]  # blue
-    green = [32, 105, 32]  # green
+    blue = [65, 105, 225]  # The colours that will be used on the tiles
+    green = [32, 105, 32]
 
     color_world = np.zeros(world.shape + (3,))
     for i in range(shape[0]):
@@ -71,9 +71,9 @@ def wet_grass(world):
 
 
 def autumn_grass(world):
-    orange = [191, 123, 13]  # blue
-    green = [120, 138, 51]  # green
-    red = [150, 44, 12]  # red
+    orange = [191, 123, 13]  # The colours that will be used on the tiles
+    green = [120, 138, 51]
+    red = [150, 44, 12]
 
     color_world = np.zeros(world.shape + (3,))
     for i in range(shape[0]):
