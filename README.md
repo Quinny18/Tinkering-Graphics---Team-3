@@ -1,6 +1,6 @@
 # Tinkering-Graphics---Team-3
 
-#1 was done by Joe and Callum 
+#1 was done by Callum and Joe
 
 #2 was done by Tyler
 
